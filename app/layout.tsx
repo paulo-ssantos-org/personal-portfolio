@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Paulo Santos | Personal Website",
     images: [
       {
-        url: "https://paulo-ssantos.updeploy.tech/og.png",
+        url: "https://paulo-ssantos.updeploy.tech/og.jpg",
         width: 1920,
         height: 1080,
       },
