@@ -1,24 +1,23 @@
-import "../global.css";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
+import "../global.css";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Paulo Santos | Personal Website",
+    template: "%s | Paulo Santos",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Personal website and portfolio of Paulo Santos",
   openGraph: {
-    title: "chronark.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    title: "Paulo Santos | Personal Website",
+    description: "Personal website and portfolio of Paulo Santos",
+    url: "https://paulo-ssantos.updeploy.tech",
+    siteName: "Paulo Santos | Personal Website",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://paulo-ssantos.updeploy.tech/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Paulo Santos | Personal Website",
     card: "summary_large_image",
   },
   icons: {

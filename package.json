@@ -28,7 +28,7 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "@opentelemetry/api": "1.6.0",
+    "@opentelemetry/api": "1.4.1",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.8.4",
@@ -51,5 +51,6 @@
       "@opentelemetry/sdk-trace-node": "1.13.0",
       "@opentelemetry/semantic-conventions": "1.13.0"
     }
-  }
+  },
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
 }
